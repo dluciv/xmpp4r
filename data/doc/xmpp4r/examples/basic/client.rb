@@ -63,7 +63,7 @@ class BasicClient
   ##
   # auth
   def do_auth
-    @cl.auth(@password, false)
+    @cl.auth(@password)
   end
 end
 
